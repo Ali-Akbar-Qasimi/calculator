@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <input value="" type="text" class="output-previuse" readonly>
+        <input onchange="AC()" value="" class="output" type="text" readonly>
+        <div class="buttons">
+            <input class="button gray ac" value="AC" type="button">
+            <input class="button gray nagitive" value="+/-" type="button">
+            <input onclick="anothertheOldfunction(precent)" class="button gray precent" value="%" type="button">
+            <input onclick="anothertheOldfunction(divide)" class="button operators divide" value="/" type="button"><br>
+            <input onclick="theOldfunction(seven)" class="button numbers seven" value="7" type="button">
+            <input onclick="theOldfunction(eight)" class="button numbers eight" value="8" type="button">
+            <input onclick="theOldfunction(nine)" class="button numbers nine" value="9" type="button">
+            <input onclick="anothertheOldfunction(multiply)" class="button operators multiply" value="*" type="button"><br>
+            <input onclick="theOldfunction(four)" class="button numbers four" value="4" type="button">
+            <input onclick="theOldfunction(five)" class="button numbers five" value="5" type="button">
+            <input onclick="theOldfunction(six)" class="button numbers six" value="6" type="button">
+            <input onclick="anothertheOldfunction(minus)" class="button operators minus" value="-" type="button"><br>
+            <input onclick="theOldfunction(one)" class="button numbers one"   value="1" type="button">
+            <input onclick="theOldfunction(two)" class="button numbers two" value="2" type="button">
+            <input onclick="theOldfunction(three)" class="button numbers three" value="3" type="button">
+            <input onclick="anothertheOldfunction(add)" class="button operators add" value="+" type="button"><br>
+            <input onclick="theOldfunction(zero)" class="button numbers zero" value="0" type="button">
+            <input onclick="theOldfunction(dot)" class="button numbers dot" value="." type="button">
+            <input class="button operators equal" value="=" type="button">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>   

@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background: -webkit-gradient(linear, left bottom, right top, from(#e91b1b), to(#37c41a));
+  background: linear-gradient(to top right, #e91b1b, #37c41a);
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container .output-previuse {
+  text-align: end;
+  width: 100%;
+  height: 100px;
+  color: black;
+  font-size: 20px;
+}
+
+.container .output {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  text-align: end;
+  background-color: transparent;
+  border: transparent;
+  border-bottom: 2px solid black;
+  margin-bottom: 30px;
+  outline: none;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.container .buttons .gray {
+  background-color: #a6a6a6;
+}
+
+.container .buttons .numbers {
+  background-color: #333333;
+}
+
+.container .buttons .numbers.zero {
+  width: 110px;
+  text-align: start;
+  padding-left: 20px;
+}
+
+.container .buttons .operators {
+  background-color: orange;
+}
+
+.container .buttons .operators:focus {
+  background-color: white;
+  color: orange;
+}
+
+.container .buttons .button {
+  margin: 3px;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+/*# sourceMappingURL=style.css.map */
